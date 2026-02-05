@@ -3,7 +3,7 @@ Keyboard | Hall Effect | OrthoLinear | Programmable | Standard-sized
 
 | WARNING: DIY project. Use at your own risk!
 
-| Forked from the [Moonboard Keyboard](https://github.com/certainly1182/MoonBoard). See the original README.md file content [in this link](/README_MoonBoard.md).
+| Forked from the [Moonboard Keyboard](https://github.com/certainly1182/MoonBoard).
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img title="KHEops70" alt="KHEops70" src="./images/KHEops70.png" width="400"></p>
 
