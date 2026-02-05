@@ -1,0 +1,1319 @@
+{
+  "board": {
+    "3dviewports": [],
+    "design_settings": {
+      "defaults": {
+        "apply_defaults_to_fp_fields": false,
+        "apply_defaults_to_fp_shapes": false,
+        "apply_defaults_to_fp_text": false,
+        "board_outline_line_width": 0.1,
+        "copper_line_width": 0.2,
+        "copper_text_italic": false,
+        "copper_text_size_h": 1.5,
+        "copper_text_size_v": 1.5,
+        "copper_text_thickness": 0.3,
+        "copper_text_upright": false,
+        "courtyard_line_width": 0.05,
+        "dimension_precision": 4,
+        "dimension_units": 3,
+        "dimensions": {
+          "arrow_length": 1270000,
+          "extension_offset": 500000,
+          "keep_text_aligned": true,
+          "suppress_zeroes": false,
+          "text_position": 0,
+          "units_format": 1
+        },
+        "fab_line_width": 0.1,
+        "fab_text_italic": false,
+        "fab_text_size_h": 1.0,
+        "fab_text_size_v": 1.0,
+        "fab_text_thickness": 0.15,
+        "fab_text_upright": false,
+        "other_line_width": 0.15,
+        "other_text_italic": false,
+        "other_text_size_h": 1.0,
+        "other_text_size_v": 1.0,
+        "other_text_thickness": 0.15,
+        "other_text_upright": false,
+        "pads": {
+          "drill": 0.5,
+          "height": 0.8,
+          "width": 0.8
+        },
+        "silk_line_width": 0.1524,
+        "silk_text_italic": false,
+        "silk_text_size_h": 1.016,
+        "silk_text_size_v": 1.016,
+        "silk_text_thickness": 0.1524,
+        "silk_text_upright": false,
+        "zones": {
+          "min_clearance": 0.3
+        }
+      },
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        },
+        {
+          "gap": 0.2032,
+          "via_gap": 0.0,
+          "width": 0.0
+        },
+        {
+          "gap": 0.1016,
+          "via_gap": 0.0,
+          "width": 0.170434
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.0,
+          "width": 0.284
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.0,
+          "width": 0.3
+        }
+      ],
+      "drc_exclusions": [],
+      "meta": {
+        "version": 2
+      },
+      "rule_severities": {
+        "annular_width": "error",
+        "clearance": "error",
+        "connection_width": "warning",
+        "copper_edge_clearance": "ignore",
+        "copper_sliver": "warning",
+        "courtyards_overlap": "error",
+        "creepage": "error",
+        "diff_pair_gap_out_of_range": "error",
+        "diff_pair_uncoupled_length_too_long": "error",
+        "drill_out_of_range": "error",
+        "duplicate_footprints": "warning",
+        "extra_footprint": "warning",
+        "footprint": "error",
+        "footprint_filters_mismatch": "ignore",
+        "footprint_symbol_mismatch": "warning",
+        "footprint_type_mismatch": "error",
+        "hole_clearance": "error",
+        "hole_near_hole": "error",
+        "hole_to_hole": "error",
+        "holes_co_located": "warning",
+        "invalid_outline": "error",
+        "isolated_copper": "warning",
+        "item_on_disabled_layer": "error",
+        "items_not_allowed": "error",
+        "length_out_of_range": "error",
+        "lib_footprint_issues": "warning",
+        "lib_footprint_mismatch": "ignore",
+        "malformed_courtyard": "error",
+        "microvia_drill_out_of_range": "error",
+        "mirrored_text_on_front_layer": "warning",
+        "missing_courtyard": "error",
+        "missing_footprint": "warning",
+        "net_conflict": "warning",
+        "nonmirrored_text_on_back_layer": "warning",
+        "npth_inside_courtyard": "error",
+        "padstack": "warning",
+        "pth_inside_courtyard": "error",
+        "shorting_items": "error",
+        "silk_edge_clearance": "warning",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
+        "skew_out_of_range": "error",
+        "solder_mask_bridge": "error",
+        "starved_thermal": "error",
+        "text_height": "warning",
+        "text_on_edge_cuts": "error",
+        "text_thickness": "warning",
+        "through_hole_pad_without_hole": "error",
+        "too_many_vias": "error",
+        "track_angle": "error",
+        "track_dangling": "warning",
+        "track_segment_length": "error",
+        "track_width": "error",
+        "tracks_crossing": "error",
+        "unconnected_items": "error",
+        "unresolved_variable": "error",
+        "via_dangling": "warning",
+        "zones_intersect": "error"
+      },
+      "rules": {
+        "max_error": 0.005,
+        "min_clearance": 0.2,
+        "min_connection": 0.0,
+        "min_copper_edge_clearance": 0.5,
+        "min_groove_width": 0.0,
+        "min_hole_clearance": 0.26,
+        "min_hole_to_hole": 0.5,
+        "min_microvia_diameter": 0.2,
+        "min_microvia_drill": 0.1,
+        "min_resolved_spokes": 1,
+        "min_silk_clearance": 0.15,
+        "min_text_height": 1.0,
+        "min_text_thickness": 0.15,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.2,
+        "min_via_annular_width": 0.13,
+        "min_via_diameter": 0.5,
+        "solder_mask_clearance": 0.0,
+        "solder_mask_min_width": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
+        "use_height_for_length_calcs": true
+      },
+      "teardrop_options": [
+        {
+          "td_onpthpad": true,
+          "td_onroundshapesonly": false,
+          "td_onsmdpad": true,
+          "td_ontrackend": false,
+          "td_onvia": true
+        }
+      ],
+      "teardrop_parameters": [
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_round_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_rect_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_track_end",
+          "td_width_to_size_filter_ratio": 0.9
+        }
+      ],
+      "track_widths": [
+        0.0,
+        0.0,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        1.0,
+        1.35
+      ],
+      "tuning_pattern_settings": {
+        "diff_pair_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 1.0
+        },
+        "diff_pair_skew_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        },
+        "single_track_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        }
+      },
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.3
+        }
+      ],
+      "zones_allow_external_fillets": false
+    },
+    "ipc2581": {
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": ""
+    },
+    "layer_pairs": [],
+    "layer_presets": [],
+    "viewports": []
+  },
+  "boards": [],
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "erc": {
+    "erc_exclusions": [],
+    "meta": {
+      "version": 0
+    },
+    "pin_map": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "rule_severities": {
+      "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
+      "bus_to_bus_conflict": "error",
+      "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
+      "different_unit_footprint": "error",
+      "different_unit_net": "error",
+      "duplicate_reference": "error",
+      "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
+      "extra_units": "error",
+      "footprint_filter": "ignore",
+      "footprint_link_issues": "warning",
+      "four_way_junction": "ignore",
+      "global_label_dangling": "warning",
+      "hier_label_mismatch": "error",
+      "label_dangling": "error",
+      "label_multiple_wires": "warning",
+      "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
+      "multiple_net_names": "warning",
+      "net_not_bus_member": "warning",
+      "no_connect_connected": "warning",
+      "no_connect_dangling": "warning",
+      "pin_not_connected": "error",
+      "pin_not_driven": "error",
+      "pin_to_pin": "warning",
+      "power_pin_not_driven": "error",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
+      "similar_labels": "warning",
+      "similar_power": "warning",
+      "simulation_model_issue": "ignore",
+      "single_global_label": "ignore",
+      "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
+      "unit_value_mismatch": "error",
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
+    }
+  },
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "KHEops70.kicad_pro",
+    "version": 3
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
+        "wire_width": 6
+      }
+    ],
+    "meta": {
+      "version": 4
+    },
+    "net_colors": null,
+    "netclass_assignments": null,
+    "netclass_patterns": []
+  },
+  "pcbnew": {
+    "last_paths": {
+      "gencad": "",
+      "idf": "",
+      "netlist": "",
+      "plot": "production/gerber/",
+      "pos_files": "production/",
+      "specctra_dsn": "",
+      "step": "MoonBoard.step",
+      "svg": "",
+      "vrml": ""
+    },
+    "page_layout_descr_file": ""
+  },
+  "schematic": {
+    "annotate_start_num": 0,
+    "bom_export_filename": "production\\bom\\KHEops70.csv",
+    "bom_fmt_presets": [],
+    "bom_fmt_settings": {
+      "field_delimiter": ",",
+      "keep_line_breaks": false,
+      "keep_tabs": false,
+      "name": "CSV",
+      "ref_delimiter": ",",
+      "ref_range_delimiter": "",
+      "string_delimiter": "\""
+    },
+    "bom_presets": [],
+    "bom_settings": {
+      "exclude_dnp": false,
+      "fields_ordered": [
+        {
+          "group_by": false,
+          "label": "Reference",
+          "name": "Reference",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part Number",
+          "name": "LCSC Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Part Number",
+          "name": "Manufacturer Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Old LCSC Part Number",
+          "name": "Old LCSC Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC PN",
+          "name": "LCSC PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Comment",
+          "name": "Comment",
+          "show": false
+        }
+      ],
+      "filter_string": "",
+      "group_symbols": false,
+      "include_excluded_from_bom": false,
+      "name": "",
+      "sort_asc": true,
+      "sort_field": "Footprint"
+    },
+    "connection_grid_size": 50.0,
+    "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0,
+      "field_names": [],
+      "intersheets_ref_own_page": false,
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
+      "label_size_ratio": 0.375,
+      "operating_point_overlay_i_precision": 3,
+      "operating_point_overlay_i_range": "~A",
+      "operating_point_overlay_v_precision": 3,
+      "operating_point_overlay_v_range": "~V",
+      "overbar_offset_ratio": 1.23,
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
+    },
+    "legacy_lib_dir": "",
+    "legacy_lib_list": [],
+    "meta": {
+      "version": 1
+    },
+    "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
+    "page_layout_descr_file": "",
+    "plot_directory": "",
+    "space_save_all_events": true,
+    "spice_current_sheet_as_root": false,
+    "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_dissipations": false,
+    "spice_save_all_voltages": false,
+    "subpart_first_id": 65,
+    "subpart_id_separator": 0
+  },
+  "sheets": [
+    [
+      "bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4",
+      "Root"
+    ],
+    [
+      "d747262a-eeed-4651-8a84-cca1dbf4100e",
+      "rgb_12"
+    ],
+    [
+      "fb2aaba3-3842-4616-b174-96769827734e",
+      "multiplexers"
+    ],
+    [
+      "b2a83ed0-9058-4027-92bf-863dcf5366cb",
+      "keys"
+    ],
+    [
+      "2e6f4fdc-73b8-4abf-840e-73068efab8ab",
+      "sensor_0"
+    ],
+    [
+      "8041d3d3-3c49-4d1a-a47a-ed5fac6c8124",
+      "sensor_1"
+    ],
+    [
+      "79322431-5cd1-44c0-b872-eaa8412686b3",
+      "sensor_2"
+    ],
+    [
+      "83a62bfa-255e-4817-a06d-2012aa425ccc",
+      "sensor_3"
+    ],
+    [
+      "831a2fd4-8175-4315-a709-039469058e09",
+      "sensor_4"
+    ],
+    [
+      "d70e156b-8dd6-4e76-9cae-57dbc477aa6e",
+      "sensor_5"
+    ],
+    [
+      "c7b7f4fe-f05f-4544-b1b3-937912d3b7f2",
+      "sensor_6"
+    ],
+    [
+      "7db82e65-fd93-4b1f-90de-ae44842fe561",
+      "sensor_7"
+    ],
+    [
+      "29912c86-ffbc-4c17-9199-2a1e18525f7c",
+      "sensor_8"
+    ],
+    [
+      "f634a1bd-8140-4bb8-bba3-4ee9177195db",
+      "sensor_9"
+    ],
+    [
+      "d63956d1-48c8-428d-9e80-5aec256986ac",
+      "sensor_10"
+    ],
+    [
+      "ff9608d6-7600-4a4e-a9f7-35ca6215a0e4",
+      "sensor_11"
+    ],
+    [
+      "1b432191-ec10-47e4-9edc-791a3cdfcf97",
+      "sensor_12"
+    ],
+    [
+      "08c49fb1-cd72-4967-bc06-2c9b671dd441",
+      "sensor_13"
+    ],
+    [
+      "472c80d1-bd81-4fc5-a064-eeb435dad929",
+      "sensor_14"
+    ],
+    [
+      "c762bb02-d41b-4f0a-a3af-0525093e46cc",
+      "sensor_15"
+    ],
+    [
+      "bad8b8e3-1329-419c-afa0-c1ef9dd37133",
+      "sensor_16"
+    ],
+    [
+      "72ba8c04-ef4b-4022-bf52-44e818183c4a",
+      "sensor_17"
+    ],
+    [
+      "00b09410-9c2f-40da-9b67-40a10ee5a94b",
+      "sensor_18"
+    ],
+    [
+      "70dd1e35-7f67-41d2-a323-04c448abf305",
+      "sensor_19"
+    ],
+    [
+      "5438a786-a194-471f-84c8-33d4385d3fcf",
+      "sensor_20"
+    ],
+    [
+      "f937ec3c-cb39-4afb-aed8-1e956af01f32",
+      "sensor_21"
+    ],
+    [
+      "2ea74e54-8709-4757-a25c-9b0ffb16eb2c",
+      "sensor_22"
+    ],
+    [
+      "69513e1e-dcce-4e99-bd9a-cbdf4f8fcae0",
+      "sensor_23"
+    ],
+    [
+      "0f1f7bc9-4f28-4c99-b5be-bfe7640d34b4",
+      "sensor_24"
+    ],
+    [
+      "ce1aa889-e82f-4080-935f-f693bd1649ae",
+      "sensor_25"
+    ],
+    [
+      "bec1b02e-425f-40bc-a374-353d524cf2da",
+      "sensor_26"
+    ],
+    [
+      "46f8bb22-3a43-4b98-ab28-c5254b9a8469",
+      "sensor_27"
+    ],
+    [
+      "084b1bb0-5b51-459a-8f0d-1b93048b6824",
+      "sensor_28"
+    ],
+    [
+      "a8ab6dfb-b642-48f8-894d-ffeedec5f06d",
+      "sensor_29"
+    ],
+    [
+      "efe0f02a-da2d-4f15-a39c-6d771b87d6e7",
+      "sensor_30"
+    ],
+    [
+      "d609e424-9850-4825-b39f-7cf8e34459c7",
+      "sensor_31"
+    ],
+    [
+      "75c11db8-e9d1-4939-b9bb-86fa44b1776f",
+      "sensor_32"
+    ],
+    [
+      "43cc62d9-ec21-477f-bc74-c1d1709f8134",
+      "sensor_33"
+    ],
+    [
+      "25ae95b3-8438-40da-8df5-d9d63aa89c12",
+      "sensor_34"
+    ],
+    [
+      "20fa4d8c-d782-41b2-98d6-7acd761e5dc1",
+      "sensor_35"
+    ],
+    [
+      "a38017b5-f9c6-4330-ab8a-ddfc6042ae22",
+      "sensor_36"
+    ],
+    [
+      "0eca0b9c-0dcf-4730-88ee-6b867bafa9af",
+      "sensor_37"
+    ],
+    [
+      "24c7f145-454a-4855-9964-bf859b53e152",
+      "sensor_38"
+    ],
+    [
+      "066bb925-b400-4c8b-86b9-fd873aafa822",
+      "sensor_39"
+    ],
+    [
+      "2cfdee72-29f3-41b8-926a-06cc63630cf0",
+      "sensor_40"
+    ],
+    [
+      "7be9940e-d60b-40cc-94bd-0e6a8678758a",
+      "sensor_41"
+    ],
+    [
+      "3913372d-47f0-468c-ac48-e10a02fbccc7",
+      "sensor_42"
+    ],
+    [
+      "0375f828-111c-4724-946f-21f18f18196f",
+      "sensor_43"
+    ],
+    [
+      "6c2f5ed5-037a-4332-90c8-33498505937e",
+      "sensor_44"
+    ],
+    [
+      "e53da7e7-c57b-4395-b9b6-32b94804de0e",
+      "sensor_45"
+    ],
+    [
+      "32b9e55d-7630-4828-8197-ead29a62c972",
+      "sensor_46"
+    ],
+    [
+      "a2025fa4-4c7d-43af-916c-9d3083c5dc61",
+      "sensor_47"
+    ],
+    [
+      "f1f93c57-4c68-4dd4-bd8f-4442abf8701a",
+      "sensor_48"
+    ],
+    [
+      "8f30dc04-07a6-4344-9a42-e7c5791a2051",
+      "sensor_49"
+    ],
+    [
+      "0d740c5c-8432-4e4b-9783-6b920e0a5e76",
+      "sensor_50"
+    ],
+    [
+      "bbe9954e-5ca7-42be-812d-e45f363df68c",
+      "sensor_51"
+    ],
+    [
+      "30a9d6ee-3144-4fe9-97c6-65eae0671847",
+      "sensor_52"
+    ],
+    [
+      "42a035ab-8344-4933-a0ec-6b46a14e4896",
+      "sensor_53"
+    ],
+    [
+      "e9f3844a-4b47-451d-a86c-31b53cd6d92a",
+      "sensor_54"
+    ],
+    [
+      "ecc9ef12-dc31-44a1-a0cb-c799cda195d9",
+      "sensor_55"
+    ],
+    [
+      "5cb178c0-62bf-4314-b9e0-b1270632d9a3",
+      "sensor_56"
+    ],
+    [
+      "325adbc0-600b-4393-b2cb-0eaefb286cc1",
+      "sensor_57"
+    ],
+    [
+      "9bc72f24-8b34-4a83-84c6-6a1c707004ee",
+      "sensor_58"
+    ],
+    [
+      "a708cfa9-47c8-4094-a66e-1a0866a31079",
+      "sensor_59"
+    ],
+    [
+      "f2ec2811-cff4-4a88-b69c-8fcbbb7d5474",
+      "sensor_60"
+    ],
+    [
+      "b69dcc5a-8508-4691-91bf-bcafa326e66a",
+      "sensor_61"
+    ],
+    [
+      "e19d7625-4b7a-4dbf-a491-ccae41df97bf",
+      "sensor_62"
+    ],
+    [
+      "8a9c2540-2ecd-4c32-aab2-3404f6e9413a",
+      "sensor_63"
+    ],
+    [
+      "ec28aafb-191d-4c1a-b242-f5917cf003ae",
+      "sensor_64"
+    ],
+    [
+      "c457c9f3-b327-42bb-861a-a079fe074910",
+      "sensor_65"
+    ],
+    [
+      "32f5cffe-572d-434c-a172-7fbe76ea0659",
+      "sensor_66"
+    ],
+    [
+      "af4e101e-553b-48fb-b860-1535bfc52c2d",
+      "sensor_67"
+    ],
+    [
+      "80ad3faa-6517-4716-9008-5ccd2a09540c",
+      "sensor_68"
+    ],
+    [
+      "a0fc8dc3-118a-44dc-a14f-8a5759e19c03",
+      "sensor_69"
+    ],
+    [
+      "d2906eb2-d0c1-4658-a93b-b7d5f640b9d6",
+      "rgb_led"
+    ],
+    [
+      "72d80878-6fc4-48f7-b3b2-06c8aa4532b9",
+      "rgb_0"
+    ],
+    [
+      "efeb6077-dc61-4c52-a41b-97287f6b9330",
+      "rgb_1"
+    ],
+    [
+      "5f676dee-e62e-4193-bc95-5d82a65d968d",
+      "rgb_2"
+    ],
+    [
+      "b3557a4e-54f4-471b-a52a-74831d8830d7",
+      "rgb_3"
+    ],
+    [
+      "f049aed2-7872-489f-a057-51228d29bea0",
+      "rgb_4"
+    ],
+    [
+      "b3dc1111-bea8-4221-bdd8-091e3806b5c1",
+      "rgb_5"
+    ],
+    [
+      "f2cd1c37-5fac-4e46-9204-94e6085054ae",
+      "rgb_6"
+    ],
+    [
+      "c30492f2-2c35-4348-a987-69cc7d0b5182",
+      "rgb_7"
+    ],
+    [
+      "9120dcb9-0093-42b8-891f-a3a66e3d615f",
+      "rgb_8"
+    ],
+    [
+      "5b7bfcea-220d-4486-be63-726c9d078845",
+      "rgb_9"
+    ],
+    [
+      "502dadc8-4c6b-4642-bd39-163d13f3227f",
+      "rgb_10"
+    ],
+    [
+      "e1ecc2d9-71d6-4e0c-b655-453aa5a2e203",
+      "rgb_11"
+    ],
+    [
+      "3aa31020-b41d-4ee8-b628-6ad98788e92e",
+      "rgb_13"
+    ],
+    [
+      "41d4a032-5277-4f30-b5fe-5ddcc6577f62",
+      "rgb_14"
+    ],
+    [
+      "f2d4842e-64dc-402c-ada8-b07bafb38768",
+      "rgb_15"
+    ],
+    [
+      "d2a1ee05-e3dd-4f08-9da5-c497173df8e2",
+      "rgb_16"
+    ],
+    [
+      "27414387-f462-4b31-a2ce-c2db8ceb9fa0",
+      "rgb_17"
+    ],
+    [
+      "ce4b958f-1d7c-4d00-8bfc-9fdc3ae96450",
+      "rgb_18"
+    ],
+    [
+      "32c0505d-8989-4406-b8a9-24cf81e2ac7e",
+      "rgb_19"
+    ],
+    [
+      "9e39ce4b-5731-49d2-ab87-c753b141367e",
+      "rgb_20"
+    ],
+    [
+      "61da1436-853c-4196-9994-492a4a6fb9d6",
+      "rgb_21"
+    ],
+    [
+      "90c8e59c-f10f-4759-b331-a2184ecc9284",
+      "rgb_22"
+    ],
+    [
+      "ceb29457-e072-4377-95f4-1127875e2344",
+      "rgb_23"
+    ],
+    [
+      "d2ec0f68-08f3-4b9d-9fe3-032e60e8a6f0",
+      "rgb_24"
+    ],
+    [
+      "a8737bc9-aef7-4b88-8518-baff25d2f587",
+      "rgb_25"
+    ],
+    [
+      "ed086ab6-77a4-47c7-a963-ff3fc4c01387",
+      "rgb_26"
+    ],
+    [
+      "bef10a60-0892-4736-a9cb-4ac2f8b676bf",
+      "rgb_27"
+    ],
+    [
+      "ad31fbea-58a2-4734-a11f-e3a6589d40c3",
+      "rgb_28"
+    ],
+    [
+      "b860c787-9dce-4d29-b49a-45f06b5669e6",
+      "rgb_29"
+    ],
+    [
+      "e806fc23-b968-44b2-89b0-cfa2c5366979",
+      "rgb_30"
+    ],
+    [
+      "7085d483-b602-4063-85fb-803ddb6a18a8",
+      "rgb_31"
+    ],
+    [
+      "5b3d0df0-6d4f-4cad-8965-d857e529771a",
+      "rgb_32"
+    ],
+    [
+      "5a589a60-9a12-4364-a572-9172f6dd855e",
+      "rgb_33"
+    ],
+    [
+      "53905789-a8d0-4afb-9dbb-49e267c6dee2",
+      "rgb_34"
+    ],
+    [
+      "0ffb1836-1666-429e-ad23-d5ce046f92ab",
+      "rgb_35"
+    ],
+    [
+      "3ad097a6-50d7-4e74-8251-ceef713bfc9a",
+      "rgb_36"
+    ],
+    [
+      "f85d4129-32e0-48f2-a1b4-7acd19c2679c",
+      "rgb_37"
+    ],
+    [
+      "c6234f93-5172-4843-b6fe-5176d690511d",
+      "rgb_38"
+    ],
+    [
+      "909792ab-6ec0-45ef-89b9-f329ba80af9f",
+      "rgb_39"
+    ],
+    [
+      "ad19c12d-a2e9-4ed5-b765-07d652e7885b",
+      "rgb_40"
+    ],
+    [
+      "d9078956-39e7-40ed-8ccb-c9fc67b3a278",
+      "rgb_41"
+    ],
+    [
+      "d99dc8f6-8567-4e52-8fe4-5ef59f99b58c",
+      "rgb_42"
+    ],
+    [
+      "ee4d005a-0224-4bf8-867e-64846e9facb0",
+      "rgb_43"
+    ],
+    [
+      "8fbc01d7-638e-4f75-820e-508ed47b6089",
+      "rgb_44"
+    ],
+    [
+      "bbf3ebf9-344f-4a07-80ab-6d33b5e6a0cf",
+      "rgb_45"
+    ],
+    [
+      "9c5708af-3aad-4393-b876-2738215aca66",
+      "rgb_46"
+    ],
+    [
+      "b0e0bd2e-e949-4de3-8fb7-1d47878f3591",
+      "rgb_47"
+    ],
+    [
+      "96d735bf-a23e-4df3-be85-7b06f26c036c",
+      "rgb_48"
+    ],
+    [
+      "83560025-3262-45b8-9982-53de8b282bd4",
+      "rgb_49"
+    ],
+    [
+      "cd023525-f6b2-4903-9a0e-6763f5014a22",
+      "rgb_50"
+    ],
+    [
+      "aca2e052-e799-4bfd-b0ec-8b9b2c258ca9",
+      "rgb_51"
+    ],
+    [
+      "385bd801-95db-49b5-9b6a-eda1f30b0f3e",
+      "rgb_52"
+    ],
+    [
+      "4c05ff08-b567-43cf-9c46-70d5ea56c164",
+      "rgb_53"
+    ],
+    [
+      "bc4afdd5-41c0-41fa-a130-fd2ed6451b8f",
+      "rgb_54"
+    ],
+    [
+      "cd6773af-3e01-4512-adf2-3a75d2957603",
+      "rgb_55"
+    ],
+    [
+      "a4e9109f-19aa-49cd-b390-38755eba9d8b",
+      "rgb_56"
+    ],
+    [
+      "1d95c74f-0f2b-4f8e-9b4c-6168d2151f46",
+      "rgb_57"
+    ],
+    [
+      "67df31cf-e478-481e-b7de-018bbe98f7f4",
+      "rgb_58"
+    ],
+    [
+      "13c7d120-e538-4466-8020-d67498d9762c",
+      "rgb_59"
+    ],
+    [
+      "1f2936e0-2bb6-4d4c-8922-be5f6116f347",
+      "rgb_60"
+    ],
+    [
+      "1242f024-7192-4a62-89fe-a917b3c71c64",
+      "rgb_61"
+    ],
+    [
+      "bbb9fb38-b13e-4288-93e8-5535eb808916",
+      "rgb_62"
+    ],
+    [
+      "08a2524c-b9ce-473d-8831-e74f543dce17",
+      "rgb_63"
+    ],
+    [
+      "c5786fc1-7280-4b22-b433-079e1adde8e4",
+      "rgb_64"
+    ],
+    [
+      "8ea19e13-34d1-4009-8258-c96f15ce379d",
+      "rgb_65"
+    ],
+    [
+      "e80d6ea8-9961-4d2d-8964-db49b2a3fe97",
+      "rgb_66"
+    ],
+    [
+      "9ac96972-4156-438e-8192-176f14f8fe4a",
+      "rgb_67"
+    ],
+    [
+      "9056d857-9ef6-4b3d-915d-4cc9055f42c3",
+      "rgb_68"
+    ],
+    [
+      "45b81d7b-b183-426c-82be-123e69a3c9b8",
+      "rgb_69"
+    ],
+    [
+      "80c2ea29-ccf5-4cca-95c6-ea84e81c8187",
+      "reset"
+    ]
+  ],
+  "text_variables": {}
+}

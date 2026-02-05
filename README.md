@@ -16,9 +16,9 @@ Keyboard | Hall Effect | OrthoLinear | Programmable | Standard-sized
 - Compatibility with "standard" widely available 60% keyboard cases.
 - OLED display.
 
-## PCB
+## Hardware
 
-Gerbers for PCBs can be found in the hardware/gerbers folder.
+Design for PCBs can be found in the hardware folder.
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img title="KHEops70" alt="KHEops70" src="./images/KHEops70-pcb.png" width="400"></p>
 

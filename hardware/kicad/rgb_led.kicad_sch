@@ -1,0 +1,5451 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a3c2c0c4-7513-4384-91f6-fe8cb5b7af2e")
+	(paper "A3")
+	(title_block
+		(title "KHEops70")
+	)
+	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 115.57 27.94) (xy 115.57 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05252961-fdcb-4de7-a967-aa51b99a5484")
+	)
+	(wire
+		(pts
+			(xy 158.115 82.55) (xy 160.02 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "075941f2-ad5b-437d-8ca7-865b0d2e17d7")
+	)
+	(wire
+		(pts
+			(xy 236.855 48.895) (xy 238.76 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a9025ca-c098-4123-a75f-4634b165e08c")
+	)
+	(wire
+		(pts
+			(xy 97.155 97.155) (xy 100.965 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0da63314-a1e4-41d7-8f39-432e508f2861")
+	)
+	(wire
+		(pts
+			(xy 236.855 82.55) (xy 238.76 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12f156e2-aee0-4c16-a24a-9ca960a77226")
+	)
+	(wire
+		(pts
+			(xy 315.595 64.135) (xy 317.5 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15626599-6347-4969-9d9c-a4a106a13a65")
+	)
+	(wire
+		(pts
+			(xy 276.225 97.155) (xy 278.13 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17dd1234-7479-4e10-be84-9eff9052ab1e")
+	)
+	(wire
+		(pts
+			(xy 217.17 97.155) (xy 219.075 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18ea2526-2d33-4517-9533-cca468e91cac")
+	)
+	(wire
+		(pts
+			(xy 158.115 97.155) (xy 160.02 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ba4f40b-fa17-40e4-9735-97c660dcfd5c")
+	)
+	(wire
+		(pts
+			(xy 236.855 97.155) (xy 238.76 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dd530ac-ed7a-4823-97c2-3db87da3c442")
+	)
+	(wire
+		(pts
+			(xy 116.84 63.5) (xy 119.38 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e19bd45-910b-4ad6-ab7d-fb1291470ad5")
+	)
+	(wire
+		(pts
+			(xy 177.8 64.135) (xy 179.705 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "202261b6-41d1-4d57-9cb4-b02ae9ae8e5f")
+	)
+	(wire
+		(pts
+			(xy 256.54 97.155) (xy 258.445 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21c2301a-0295-44cb-8874-1c13922b9e02")
+	)
+	(wire
+		(pts
+			(xy 138.43 64.135) (xy 140.335 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a87cb7b-0fcb-49cc-b962-9416c1af73ed")
+	)
+	(wire
+		(pts
+			(xy 315.595 35.56) (xy 317.5 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b11133f-cb7c-4383-acd3-458d8fafcde0")
+	)
+	(wire
+		(pts
+			(xy 335.28 97.155) (xy 337.185 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d1255c0-b519-4454-9ce7-82cefacc2793")
+	)
+	(wire
+		(pts
+			(xy 98.425 82.55) (xy 100.965 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dbd2d36-5920-473f-b204-0a0ebdd2a09e")
+	)
+	(wire
+		(pts
+			(xy 158.115 35.56) (xy 160.02 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e4eec41-ed19-4838-bdc5-92d9c698e0cb")
+	)
+	(wire
+		(pts
+			(xy 328.295 114.935) (xy 332.105 114.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b854e9d-df8a-4b6e-b224-68c99512b423")
+	)
+	(wire
+		(pts
+			(xy 138.43 48.895) (xy 140.335 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bbdfb58-2da8-4ec5-8861-a05a223f7dd0")
+	)
+	(wire
+		(pts
+			(xy 217.17 82.55) (xy 219.075 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d4a92b7-96a0-4025-9cc4-60aa399450e1")
+	)
+	(wire
+		(pts
+			(xy 339.725 109.855) (xy 356.87 109.855)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42ea2696-40fc-42ae-a5f2-80bebd16448d")
+	)
+	(wire
+		(pts
+			(xy 42.545 81.915) (xy 52.07 81.915)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43881a77-fb3a-4a77-8766-a24e861d6782")
+	)
+	(wire
+		(pts
+			(xy 360.045 64.135) (xy 360.045 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44fe164c-aa60-4c32-a1b0-ae7d0ca175d7")
+	)
+	(wire
+		(pts
+			(xy 217.17 35.56) (xy 219.075 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "468fb4ae-da66-4949-9e8d-de1520d06bb0")
+	)
+	(wire
+		(pts
+			(xy 276.225 82.55) (xy 278.13 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47f37128-b259-4fd1-b3a6-2b6b34f9fe0c")
+	)
+	(wire
+		(pts
+			(xy 354.965 97.155) (xy 356.87 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48965fca-fec7-4221-9989-c00ed12e47bf")
+	)
+	(wire
+		(pts
+			(xy 97.155 96.52) (xy 91.44 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c5ab501-c09c-41f0-9384-769043aa2d76")
+	)
+	(wire
+		(pts
+			(xy 197.485 48.895) (xy 199.39 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50b250aa-8948-4d54-80a0-98f7ff85bd32")
+	)
+	(wire
+		(pts
+			(xy 335.28 48.895) (xy 337.185 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56fc1b74-dff0-49d0-8055-1849b961b0c4")
+	)
+	(wire
+		(pts
+			(xy 356.235 35.56) (xy 356.235 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a5b6b06-c648-4bb0-bc7c-1a1068b2414f")
+	)
+	(wire
+		(pts
+			(xy 295.91 64.135) (xy 297.815 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5abc4779-402d-4c5b-bd2f-6551e2a5f2c6")
+	)
+	(wire
+		(pts
+			(xy 217.17 48.895) (xy 219.075 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e2def39-8eb4-49d7-86f2-e94efa76be13")
+	)
+	(wire
+		(pts
+			(xy 356.235 48.895) (xy 354.965 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63907642-ec14-4b99-9e28-1f4e8837353d")
+	)
+	(wire
+		(pts
+			(xy 92.71 63.5) (xy 99.06 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64eef018-52c5-4e5f-95df-2d7ca544d628")
+	)
+	(wire
+		(pts
+			(xy 256.54 48.895) (xy 258.445 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "677bbeb9-1ca4-4921-8e03-3d4b0fb4da32")
+	)
+	(wire
+		(pts
+			(xy 338.455 82.55) (xy 335.28 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "683b9025-b253-4797-9bba-4e78d0f9303b")
+	)
+	(wire
+		(pts
+			(xy 118.745 48.895) (xy 120.65 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68f09043-416d-46ef-b006-c26ab82840aa")
+	)
+	(wire
+		(pts
+			(xy 315.595 48.895) (xy 317.5 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "712e04ad-5d66-4976-bd07-755cca75819a")
+	)
+	(wire
+		(pts
+			(xy 354.965 64.135) (xy 360.045 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "748fde9f-01fa-4249-a3a5-f1a56a740ea8")
+	)
+	(wire
+		(pts
+			(xy 118.745 97.155) (xy 120.65 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "774b8d86-d225-4481-870e-c9b2cece9da7")
+	)
+	(wire
+		(pts
+			(xy 256.54 35.56) (xy 258.445 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77edc007-6e4f-4aa2-98b8-1c7f590dba99")
+	)
+	(wire
+		(pts
+			(xy 69.85 96.52) (xy 73.66 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e08874f-fece-4b48-949a-0d079f116e7f")
+	)
+	(wire
+		(pts
+			(xy 256.54 82.55) (xy 258.445 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fd915a9-eef0-4d65-886d-e9f01410b767")
+	)
+	(wire
+		(pts
+			(xy 158.115 64.135) (xy 160.02 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "835c413b-3ff8-4df3-bfd5-997cd266cec6")
+	)
+	(wire
+		(pts
+			(xy 315.595 82.55) (xy 317.5 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84852703-32f4-4716-88aa-23c2643c550b")
+	)
+	(wire
+		(pts
+			(xy 295.91 35.56) (xy 297.815 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84c2aca9-cc7c-4006-bc50-155d4d095691")
+	)
+	(wire
+		(pts
+			(xy 335.28 35.56) (xy 337.185 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "885970e7-1e00-497a-9aa2-b5e77e7eb1e6")
+	)
+	(wire
+		(pts
+			(xy 138.43 35.56) (xy 140.335 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bda65d9-a3ba-4a0d-bb89-3b4a4adf4e8a")
+	)
+	(wire
+		(pts
+			(xy 42.545 96.52) (xy 52.07 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f0e77a2-ca43-46cc-a50b-07c6bc8d893a")
+	)
+	(wire
+		(pts
+			(xy 276.225 64.135) (xy 278.13 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "926b2cac-dadc-45ff-b3b7-de6838df38d9")
+	)
+	(wire
+		(pts
+			(xy 197.485 35.56) (xy 199.39 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "927b9f8f-2f34-496f-8f4d-b1025240c149")
+	)
+	(wire
+		(pts
+			(xy 177.8 97.155) (xy 179.705 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9903f506-ac60-4c78-9e2f-7dbb98d44455")
+	)
+	(wire
+		(pts
+			(xy 197.485 82.55) (xy 199.39 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cad7958-1700-4cad-8c1c-7cc4a6cea4d5")
+	)
+	(wire
+		(pts
+			(xy 335.28 64.135) (xy 337.185 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e1009bf-0fce-4655-87b1-b0bcdd47bacc")
+	)
+	(wire
+		(pts
+			(xy 354.965 35.56) (xy 356.235 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fa1c952-4224-49a0-b1e4-e9ddefe6f7ef")
+	)
+	(wire
+		(pts
+			(xy 177.8 82.55) (xy 179.705 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a47e2e7f-6d09-490c-afa5-719171e5d2fc")
+	)
+	(wire
+		(pts
+			(xy 236.855 35.56) (xy 238.76 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5351ed4-0b91-4339-bcf8-736e47a87ce9")
+	)
+	(wire
+		(pts
+			(xy 295.91 97.155) (xy 297.815 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6292290-7831-4580-b2cb-f9ad910059da")
+	)
+	(wire
+		(pts
+			(xy 138.43 82.55) (xy 140.335 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7f174a3-a789-423e-bb6a-aceff290eb96")
+	)
+	(wire
+		(pts
+			(xy 315.595 97.155) (xy 317.5 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8dc8579-ba87-46e2-81ce-add613b7e32d")
+	)
+	(wire
+		(pts
+			(xy 98.425 81.915) (xy 91.44 81.915)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aac4d1f1-c3e9-4197-8a23-9365e0c2f245")
+	)
+	(wire
+		(pts
+			(xy 295.91 82.55) (xy 297.815 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab6721d0-3534-4bfb-b053-7cd6d6f5cc17")
+	)
+	(wire
+		(pts
+			(xy 92.71 64.77) (xy 91.44 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abebd8f4-e115-4ab0-b595-b46ae0e1a2fb")
+	)
+	(wire
+		(pts
+			(xy 115.57 35.56) (xy 120.65 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac36afcc-cc93-4052-940b-e044269e8e04")
+	)
+	(wire
+		(pts
+			(xy 356.87 97.155) (xy 356.87 109.855)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af713ef1-e062-4def-9318-f0b9f5fa0e0f")
+	)
+	(wire
+		(pts
+			(xy 119.38 63.5) (xy 119.38 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b16db632-66eb-4435-92e5-f1b24608856c")
+	)
+	(wire
+		(pts
+			(xy 295.91 48.895) (xy 297.815 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b23fdb90-c064-4307-9e23-1e363918d00a")
+	)
+	(wire
+		(pts
+			(xy 98.425 82.55) (xy 98.425 81.915)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9b6b82d-053e-421c-ad91-0baad50e49b2")
+	)
+	(wire
+		(pts
+			(xy 339.725 109.855) (xy 339.725 114.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba3e0b38-a984-416d-a722-e6792f65b08c")
+	)
+	(wire
+		(pts
+			(xy 177.8 35.56) (xy 179.705 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbada2cd-dbe5-434e-af30-d4941dab1fed")
+	)
+	(wire
+		(pts
+			(xy 276.225 48.895) (xy 278.13 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfd9d167-70a3-4a08-a396-220a05a990b4")
+	)
+	(wire
+		(pts
+			(xy 42.545 81.915) (xy 42.545 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c422fe54-0c6f-4ca0-8087-7127de1f6a8f")
+	)
+	(wire
+		(pts
+			(xy 92.71 63.5) (xy 92.71 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8257670-86ae-48c0-b2cf-fe33a0a4872c")
+	)
+	(wire
+		(pts
+			(xy 119.38 64.135) (xy 120.65 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd4ceead-119d-4cb1-8c7d-f6870113a700")
+	)
+	(wire
+		(pts
+			(xy 69.85 63.5) (xy 73.66 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d00d1767-e477-4ecc-9a58-91395533560b")
+	)
+	(wire
+		(pts
+			(xy 197.485 97.155) (xy 199.39 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d37da68a-f894-4f36-8ef7-3db9644f3a4c")
+	)
+	(wire
+		(pts
+			(xy 109.22 27.94) (xy 115.57 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3cf35ac-91dc-453b-9e8d-33ddfbab58f8")
+	)
+	(wire
+		(pts
+			(xy 158.115 48.895) (xy 160.02 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7da28c8-f149-47b7-9a33-458ce81a7a45")
+	)
+	(wire
+		(pts
+			(xy 73.025 27.94) (xy 91.44 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d99c237c-2257-4284-aa53-4371547fb1d1")
+	)
+	(wire
+		(pts
+			(xy 100.965 48.895) (xy 69.85 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da356378-b923-44b1-a869-48f33858c35c")
+	)
+	(wire
+		(pts
+			(xy 217.17 64.135) (xy 219.075 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3a035b9-f1b0-4613-9ea0-7f83effe8e8d")
+	)
+	(wire
+		(pts
+			(xy 69.85 48.895) (xy 69.85 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4a75056-4068-4aa0-8f43-8ecadab0816a")
+	)
+	(wire
+		(pts
+			(xy 197.485 64.135) (xy 199.39 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e549ef37-6e9a-48f0-837a-5f163d054d35")
+	)
+	(wire
+		(pts
+			(xy 356.235 82.55) (xy 360.045 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7eaac76-3ede-437e-9633-d93b3e303d6c")
+	)
+	(wire
+		(pts
+			(xy 97.155 97.155) (xy 97.155 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8c54bfb-09bb-4f6b-b6d6-8ffa173cbc9e")
+	)
+	(wire
+		(pts
+			(xy 236.855 64.135) (xy 238.76 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb81f469-0fc5-4ead-9b73-598d579eadb9")
+	)
+	(wire
+		(pts
+			(xy 138.43 97.155) (xy 140.335 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6c4ec6b-aaad-4f58-ae98-8ff4b135a128")
+	)
+	(wire
+		(pts
+			(xy 276.225 35.56) (xy 278.13 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f70c8f00-d899-4f10-b653-61935702d20a")
+	)
+	(wire
+		(pts
+			(xy 256.54 64.135) (xy 258.445 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8dad4f4-183c-4b41-8f0f-d085170edcf8")
+	)
+	(wire
+		(pts
+			(xy 118.745 82.55) (xy 120.65 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc04c0c2-e283-40eb-ac18-1fcecdc2530f")
+	)
+	(wire
+		(pts
+			(xy 69.85 81.915) (xy 73.66 81.915)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fca9db9c-65af-42c6-b35c-d45adc3dcba9")
+	)
+	(wire
+		(pts
+			(xy 177.8 48.895) (xy 179.705 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffac3335-99f4-4dd8-a7f6-77e09014f12d")
+	)
+	(hierarchical_label "RGB_DATA_IN"
+		(shape input)
+		(at 73.025 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf7655b9-0f3c-4046-b00f-b3e20c370bbe")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 335.915 114.935 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d32276a-cac8-48da-82c2-7d923220cc6c")
+		(property "Reference" "R2"
+			(at 335.915 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470R"
+			(at 335.915 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 335.915 116.713 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 335.915 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 335.915 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 335.915 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 335.915 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25117"
+			(at 335.915 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 335.915 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Old LCSC Part Number" ""
+			(at 335.915 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9a2674f-141f-4702-9501-c3480ca4fa35")
+		)
+		(pin "2"
+			(uuid "28021172-9daa-414b-aa3b-4be9d2538169")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 328.295 114.935 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0095c0d-0383-4582-ad77-781f35104930")
+		(property "Reference" "TP1"
+			(at 324.993 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RGB_DATA_OUT"
+			(at 324.993 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 328.295 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 328.295 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 328.295 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" ""
+			(at 328.295 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 328.295 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 328.295 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Old LCSC Part Number" ""
+			(at 328.295 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b39c051e-6db0-4eb9-8dbc-b1bc7731ca7a")
+		)
+		(instances
+			(project "MoonBoard"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.705 95.25)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "08a2524c-b9ce-473d-8831-e74f543dce17")
+		(property "Sheetname" "rgb_63"
+			(at 179.705 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 179.705 103.2266 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 197.485 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "64802ef3-a80d-4ddc-9b52-63e579269373")
+		)
+		(pin "Din" input
+			(at 179.705 97.155 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a36c8e8a-fcda-401f-a823-cdafa00b9e93")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "143")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 160.02 62.23)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0ffb1836-1666-429e-ad23-d5ce046f92ab")
+		(property "Sheetname" "rgb_35"
+			(at 160.02 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 160.02 70.2066 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 177.8 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9a61e5df-7998-482b-867f-1e7ffaecc68a")
+		)
+		(pin "Din" input
+			(at 160.02 64.135 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "39bd58ca-07f0-452b-8e27-17c6f2c34cb8")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "115")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 219.075 95.25)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1242f024-7192-4a62-89fe-a917b3c71c64")
+		(property "Sheetname" "rgb_61"
+			(at 219.075 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 219.075 103.2266 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 236.855 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "853c6c67-ded1-4fe0-9949-d88228b71a0f")
+		)
+		(pin "Din" input
+			(at 219.075 97.155 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5a0a810a-055e-42e3-b492-a56706f48c87")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "141")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 258.445 95.25)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "13c7d120-e538-4466-8020-d67498d9762c")
+		(property "Sheetname" "rgb_59"
+			(at 258.445 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 258.445 103.2266 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 276.225 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "29c329d4-1501-4a8f-b8be-ad5be1262476")
+		)
+		(pin "Din" input
+			(at 258.445 97.155 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a559bb93-810b-4570-928c-2eadbc724a31")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "139")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 297.815 95.25)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1d95c74f-0f2b-4f8e-9b4c-6168d2151f46")
+		(property "Sheetname" "rgb_57"
+			(at 297.815 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 297.815 103.2266 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 315.595 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "49adaeff-15a8-4985-b132-cf5e89335d21")
+		)
+		(pin "Din" input
+			(at 297.815 97.155 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4d43f62b-7a14-4c59-a7a4-2258b0e47e5c")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "137")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 238.76 95.25)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1f2936e0-2bb6-4d4c-8922-be5f6116f347")
+		(property "Sheetname" "rgb_60"
+			(at 238.76 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 238.76 103.2266 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 256.54 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e71a6542-b78a-4228-b9f7-d96089944ec7")
+		)
+		(pin "Din" input
+			(at 238.76 97.155 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5bb8b8df-6b43-4bc4-a82b-d6ae1f2f9a44")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "140")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 258.445 46.99)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "27414387-f462-4b31-a2ce-c2db8ceb9fa0")
+		(property "Sheetname" "rgb_17"
+			(at 258.445 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 258.445 54.9666 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 258.445 48.895 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1777c8b0-a4b6-4c0f-9e40-4143014730da")
+		)
+		(pin "Din" input
+			(at 276.225 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1b167841-81fe-442c-804a-a2beef07867e")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "97")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 219.075 46.99)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "32c0505d-8989-4406-b8a9-24cf81e2ac7e")
+		(property "Sheetname" "rgb_19"
+			(at 219.075 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 219.075 54.9666 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 219.075 48.895 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "95fa88de-49b7-43ee-b8d8-b58de4847d38")
+		)
+		(pin "Din" input
+			(at 236.855 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "00d30b82-1e1a-4cdf-8420-a85479ed63bb")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "99")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.965 80.645)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "385bd801-95db-49b5-9b6a-eda1f30b0f3e")
+		(property "Sheetname" "rgb_52"
+			(at 100.965 79.9334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 100.965 88.6216 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 100.965 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a56dc12b-220b-496a-9837-cddf2acafe7f")
+		)
+		(pin "Din" input
+			(at 118.745 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b20cc011-0f1e-41c3-b76d-8297f8fe9a3c")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "132")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 337.185 46.99)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3aa31020-b41d-4ee8-b628-6ad98788e92e")
+		(property "Sheetname" "rgb_13"
+			(at 337.185 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 337.185 54.9666 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 337.185 48.895 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bf4b6bfa-e2fe-461f-bb42-87e511340a80")
+		)
+		(pin "Din" input
+			(at 354.965 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "42301502-483f-40ef-ba75-8ee0fced05d3")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "93")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 140.335 62.23)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3ad097a6-50d7-4e74-8251-ceef713bfc9a")
+		(property "Sheetname" "rgb_36"
+			(at 140.335 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 140.335 70.2066 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 158.115 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fef9ef7e-fb17-4690-9833-9436f0024c4e")
+		)
+		(pin "Din" input
+			(at 140.335 64.135 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "59a9ddce-e0b8-4909-8b87-c86f2fcacddd")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "116")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 317.5 46.99)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "41d4a032-5277-4f30-b5fe-5ddcc6577f62")
+		(property "Sheetname" "rgb_14"
+			(at 317.5 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 317.5 54.9666 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 317.5 48.895 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a3fe5bb1-8b42-4036-b855-f7be9f80e61d")
+		)
+		(pin "Din" input
+			(at 335.28 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "34e40e15-7a13-446b-b099-313ce5d6b380")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "94")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 94.615)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "45b81d7b-b183-426c-82be-123e69a3c9b8")
+		(property "Sheetname" "rgb_69"
+			(at 52.07 93.9034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 52.07 102.5916 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 69.85 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "32938991-ac48-472f-9e63-1c45f93eef81")
+		)
+		(pin "Din" input
+			(at 52.07 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e4f9615e-c479-41de-81fe-9626f80865d4")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "149")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 80.01)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4c05ff08-b567-43cf-9c46-70d5ea56c164")
+		(property "Sheetname" "rgb_53"
+			(at 73.66 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 73.66 87.9866 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 73.66 81.915 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4a0fff76-32f2-461f-a55e-7e776b17bbaa")
+		)
+		(pin "Din" input
+			(at 91.44 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "28216365-e80e-4e3e-8539-7effa4bbca9b")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "133")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 140.335 33.655)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "502dadc8-4c6b-4642-bd39-163d13f3227f")
+		(property "Sheetname" "rgb_10"
+			(at 140.335 32.9434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 140.335 41.6316 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 158.115 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6168f9ba-d696-4148-8aec-5088c8f944fc")
+		)
+		(pin "Din" input
+			(at 140.335 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "838b4a5f-073f-4ca5-859c-ba19810b82c5")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "90")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.705 62.23)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "53905789-a8d0-4afb-9dbb-49e267c6dee2")
+		(property "Sheetname" "rgb_34"
+			(at 179.705 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 179.705 70.2066 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 197.485 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "37bca9ee-9f1f-4a21-b34d-deedfa6f49ff")
+		)
+		(pin "Din" input
+			(at 179.705 64.135 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "50ea64b5-d148-4e2d-ad89-4da627a2f02e")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "114")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 199.39 62.23)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5a589a60-9a12-4364-a572-9172f6dd855e")
+		(property "Sheetname" "rgb_33"
+			(at 199.39 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 199.39 70.2066 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 217.17 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fb264d94-845d-4302-9d19-1fa3db06669e")
+		)
+		(pin "Din" input
+			(at 199.39 64.135 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7e5abd9a-a2bc-4ae7-952f-42927c7f0ce5")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "113")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 219.075 62.23)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5b3d0df0-6d4f-4cad-8965-d857e529771a")
+		(property "Sheetname" "rgb_32"
+			(at 219.075 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 219.075 70.2066 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 236.855 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8ff69cad-105f-43a2-8c75-97ee557208da")
+		)
+		(pin "Din" input
+			(at 219.075 64.135 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2b46ab72-bc14-4c16-b2cb-562c224c2969")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "112")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 160.02 33.655)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5b7bfcea-220d-4486-be63-726c9d078845")
+		(property "Sheetname" "rgb_9"
+			(at 160.02 32.9434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 160.02 41.6316 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 177.8 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "40baf991-d24c-4897-91ec-d823e428fc97")
+		)
+		(pin "Din" input
+			(at 160.02 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "117d6623-d5f1-4f7d-a92f-0a006fe8abeb")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "89")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 297.815 33.655)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5f676dee-e62e-4193-bc95-5d82a65d968d")
+		(property "Sheetname" "rgb_2"
+			(at 297.815 32.9434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 297.815 41.6316 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 315.595 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2e746e4a-4297-4765-85a5-b17e1c7a83c8")
+		)
+		(pin "Din" input
+			(at 297.815 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d8a576fb-43e6-4f05-aae1-1782f83743b6")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "82")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.705 46.99)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "61da1436-853c-4196-9994-492a4a6fb9d6")
+		(property "Sheetname" "rgb_21"
+			(at 179.705 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 179.705 54.9666 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 179.705 48.895 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f28b30f8-b83e-438c-9ad2-4f26ea9c5df0")
+		)
+		(pin "Din" input
+			(at 197.485 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "318ab81d-ddff-4581-a3cf-2ca64b07447b")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "101")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 278.13 95.25)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "67df31cf-e478-481e-b7de-018bbe98f7f4")
+		(property "Sheetname" "rgb_58"
+			(at 278.13 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 278.13 103.2266 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 295.91 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f48e8855-45b5-408e-bb9f-7ff5cedd5c38")
+		)
+		(pin "Din" input
+			(at 278.13 97.155 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0e036646-96bf-4c7d-b21d-66b563923ce4")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "138")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 238.76 62.23)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7085d483-b602-4063-85fb-803ddb6a18a8")
+		(property "Sheetname" "rgb_31"
+			(at 238.76 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 238.76 70.2066 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 256.54 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a3816af1-9eb2-4393-8de5-ba5e066f4888")
+		)
+		(pin "Din" input
+			(at 238.76 64.135 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "440969c1-6d0e-4d2c-ad32-b74ce3b38fd7")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "111")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 337.185 33.655)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "72d80878-6fc4-48f7-b3b2-06c8aa4532b9")
+		(property "Sheetname" "rgb_0"
+			(at 337.185 32.9434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 337.185 41.6316 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 354.965 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b2aed0e2-94e6-44f6-8f39-991f34bd3ed0")
+		)
+		(pin "Din" input
+			(at 337.185 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dbe0b328-d594-416d-92e2-d820a655302a")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "80")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 160.02 80.645)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "83560025-3262-45b8-9982-53de8b282bd4")
+		(property "Sheetname" "rgb_49"
+			(at 160.02 79.9334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 160.02 88.6216 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 160.02 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ec747e3b-4e4a-4ef0-bf44-04d99d621380")
+		)
+		(pin "Din" input
+			(at 177.8 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a309ab76-a368-41a3-ac46-4beb8ffc636c")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "129")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 140.335 95.25)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8ea19e13-34d1-4009-8258-c96f15ce379d")
+		(property "Sheetname" "rgb_65"
+			(at 140.335 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 140.335 103.2266 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 158.115 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "42ce21db-ac81-4612-bdfe-44bf528807be")
+		)
+		(pin "Din" input
+			(at 140.335 97.155 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0b0d7acb-11c2-4579-816d-d2c39c799d23")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "145")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 258.445 80.645)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8fbc01d7-638e-4f75-820e-508ed47b6089")
+		(property "Sheetname" "rgb_44"
+			(at 258.445 79.9334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 258.445 88.6216 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 258.445 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4483e88b-bf96-4512-b746-c1eac05cd414")
+		)
+		(pin "Din" input
+			(at 276.225 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a04eb07d-66b3-485a-b455-b2cde76bb1b3")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "124")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 94.615)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9056d857-9ef6-4b3d-915d-4cc9055f42c3")
+		(property "Sheetname" "rgb_68"
+			(at 73.66 93.9034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 73.66 102.5916 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 91.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c4ca8cf3-447d-48db-a2b5-c87bc346ddc8")
+		)
+		(pin "Din" input
+			(at 73.66 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "eaebfec5-db56-48f7-b6ee-aeef5e36e121")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "148")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 62.23)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "909792ab-6ec0-45ef-89b9-f329ba80af9f")
+		(property "Sheetname" "rgb_39"
+			(at 73.66 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 73.66 70.2066 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 91.44 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ff46efb5-3f2d-4c86-80ac-64a2e31e9d9f")
+		)
+		(pin "Din" input
+			(at 73.66 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1aea9f86-ab52-47f1-925b-330572f44acc")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "119")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 160.02 46.99)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "90c8e59c-f10f-4759-b331-a2184ecc9284")
+		(property "Sheetname" "rgb_22"
+			(at 160.02 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 160.02 54.9666 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 160.02 48.895 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7daac501-6537-4e86-ac8e-db9be91aaa6a")
+		)
+		(pin "Din" input
+			(at 177.8 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d81fc253-f10c-4fda-b7c8-12fb21afabcd")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "102")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.705 33.655)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9120dcb9-0093-42b8-891f-a3a66e3d615f")
+		(property "Sheetname" "rgb_8"
+			(at 179.705 32.9434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 179.705 41.6316 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 197.485 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e6aac45f-8344-4308-8e02-09d9551d4a6e")
+		)
+		(pin "Din" input
+			(at 179.705 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6d9553e7-8c78-4967-996d-bcf02c81e5a0")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "88")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.705 80.645)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "96d735bf-a23e-4df3-be85-7b06f26c036c")
+		(property "Sheetname" "rgb_48"
+			(at 179.705 79.9334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 179.705 88.6216 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 179.705 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c129976d-f1b6-42de-a4bb-0b97744b6418")
+		)
+		(pin "Din" input
+			(at 197.485 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ed847293-8756-4cca-a7f0-848e034384de")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "128")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.965 95.25)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9ac96972-4156-438e-8192-176f14f8fe4a")
+		(property "Sheetname" "rgb_67"
+			(at 100.965 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 100.965 103.2266 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 118.745 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "374e0461-1a88-4ca6-b965-65377712c7a9")
+		)
+		(pin "Din" input
+			(at 100.965 97.155 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d973e890-1717-449a-9601-a546030f231d")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "147")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 219.075 80.645)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9c5708af-3aad-4393-b876-2738215aca66")
+		(property "Sheetname" "rgb_46"
+			(at 219.075 79.9334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 219.075 88.6216 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 219.075 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "53046959-d064-4311-8006-928eb39b20fa")
+		)
+		(pin "Din" input
+			(at 236.855 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "73cd6b9b-0f4a-4c8d-8d01-390a0abb1b7d")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "126")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 199.39 46.99)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9e39ce4b-5731-49d2-ab87-c753b141367e")
+		(property "Sheetname" "rgb_20"
+			(at 199.39 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 199.39 54.9666 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 199.39 48.895 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f1a187a2-db2a-4b31-acce-0cd0145a7b93")
+		)
+		(pin "Din" input
+			(at 217.17 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2b36b9eb-3a2d-4a6c-a5a9-f42da9f1e466")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "100")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 317.5 95.25)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a4e9109f-19aa-49cd-b390-38755eba9d8b")
+		(property "Sheetname" "rgb_56"
+			(at 317.5 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 317.5 103.2266 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 335.28 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4aa55d3e-92b0-4bc2-abe2-fb85512b0f56")
+		)
+		(pin "Din" input
+			(at 317.5 97.155 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c148bdb2-2fd9-4d3a-84ef-779e24b63883")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "136")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.965 46.99)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a8737bc9-aef7-4b88-8518-baff25d2f587")
+		(property "Sheetname" "rgb_25"
+			(at 100.965 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 100.965 54.9666 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 100.965 48.895 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0a64342a-a4ae-465b-8aa6-c7f4b1c36375")
+		)
+		(pin "Din" input
+			(at 118.745 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b203b04a-ec2d-4006-85a9-ca12ec18b998")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "105")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 80.645)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "aca2e052-e799-4bfd-b0ec-8b9b2c258ca9")
+		(property "Sheetname" "rgb_51"
+			(at 120.65 79.9334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 120.65 88.6216 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 120.65 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e7ddace0-bf60-4089-9e39-20eafd01ea2b")
+		)
+		(pin "Din" input
+			(at 138.43 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "15b47642-ef61-41e8-bc1e-843e5d75ac0e")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "131")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 338.455 80.645)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ad19c12d-a2e9-4ed5-b765-07d652e7885b")
+		(property "Sheetname" "rgb_40"
+			(at 338.455 79.9334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 338.455 88.6216 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 338.455 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2b971fd4-b937-411e-b7fe-8895729487b7")
+		)
+		(pin "Din" input
+			(at 356.235 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cda862b8-6193-46eb-a9a6-8b1a6bbd52d0")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "120")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 297.815 62.23)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ad31fbea-58a2-4734-a11f-e3a6589d40c3")
+		(property "Sheetname" "rgb_28"
+			(at 297.815 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 297.815 70.2066 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 315.595 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ecb67872-f5e8-42e5-8af3-4b6b126ff2a7")
+		)
+		(pin "Din" input
+			(at 297.815 64.135 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a3f9a0fe-aa80-4546-912d-58ebbe5c9f2c")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "108")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 199.39 80.645)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b0e0bd2e-e949-4de3-8fb7-1d47878f3591")
+		(property "Sheetname" "rgb_47"
+			(at 199.39 79.9334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 199.39 88.6216 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 199.39 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fabefd39-91c4-4879-ba87-5f83a171e604")
+		)
+		(pin "Din" input
+			(at 217.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2388dd20-9b7f-48e6-8e3a-9b61901101e8")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "127")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 278.13 33.655)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b3557a4e-54f4-471b-a52a-74831d8830d7")
+		(property "Sheetname" "rgb_3"
+			(at 278.13 32.9434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 278.13 41.6316 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 295.91 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0e78e5ac-aa7a-435b-be8f-0d4558f4c91e")
+		)
+		(pin "Din" input
+			(at 278.13 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "345c7abe-a006-4a28-a9d3-3a909c1f57fa")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "83")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 238.76 33.655)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b3dc1111-bea8-4221-bdd8-091e3806b5c1")
+		(property "Sheetname" "rgb_5"
+			(at 238.76 32.9434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 238.76 41.6316 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 256.54 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e8b8f6fa-fd30-43c0-9fb3-6f5bfc5a5cda")
+		)
+		(pin "Din" input
+			(at 238.76 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0b67a833-2c3d-4a79-bd9d-1a40d38d0fd6")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "85")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 278.13 62.23)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b860c787-9dce-4d29-b49a-45f06b5669e6")
+		(property "Sheetname" "rgb_29"
+			(at 278.13 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 278.13 70.2066 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 295.91 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "73da8e2e-aa84-49b7-b160-60c0d7ef0fa6")
+		)
+		(pin "Din" input
+			(at 278.13 64.135 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c09a6174-3c5f-4310-a050-ec04cae91205")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "109")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 199.39 95.25)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bbb9fb38-b13e-4288-93e8-5535eb808916")
+		(property "Sheetname" "rgb_62"
+			(at 199.39 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 199.39 103.2266 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 217.17 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "55fd6567-fd20-49c1-9b96-03f71ebf2d41")
+		)
+		(pin "Din" input
+			(at 199.39 97.155 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8874ab7e-548a-4cd0-a38b-2ffe839b6ee7")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "142")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 238.76 80.645)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bbf3ebf9-344f-4a07-80ab-6d33b5e6a0cf")
+		(property "Sheetname" "rgb_45"
+			(at 238.76 79.9334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 238.76 88.6216 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 238.76 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6b2977e7-05be-4949-b824-bd79c54fbc6d")
+		)
+		(pin "Din" input
+			(at 256.54 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "49cc853b-6cd5-4a9c-9c46-249b147a1b46")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "125")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 80.01)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bc4afdd5-41c0-41fa-a130-fd2ed6451b8f")
+		(property "Sheetname" "rgb_54"
+			(at 52.07 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 52.07 87.9866 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 52.07 81.915 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "95fe114d-4613-4188-a930-3d3056f1142c")
+		)
+		(pin "Din" input
+			(at 69.85 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3153a063-205f-43dd-b506-26f801940697")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "134")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 317.5 62.23)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bef10a60-0892-4736-a9cb-4ac2f8b676bf")
+		(property "Sheetname" "rgb_27"
+			(at 317.5 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 317.5 70.2066 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 335.28 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "08f85f22-e112-4ca2-a1b9-a050b45b28b1")
+		)
+		(pin "Din" input
+			(at 317.5 64.135 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8cabdfee-0867-4273-9af6-24c6a2932a45")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "107")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 199.39 33.655)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c30492f2-2c35-4348-a987-69cc7d0b5182")
+		(property "Sheetname" "rgb_7"
+			(at 199.39 32.9434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 199.39 41.6316 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 217.17 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2d04028c-2445-4c74-bfea-8c044b20022c")
+		)
+		(pin "Din" input
+			(at 199.39 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b2c64f06-0ee7-4af4-8c3b-83fdb44b19fd")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "87")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 160.02 95.25)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c5786fc1-7280-4b22-b433-079e1adde8e4")
+		(property "Sheetname" "rgb_64"
+			(at 160.02 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 160.02 103.2266 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 177.8 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3b7db57d-3150-4f42-a0af-16e8189d5d6d")
+		)
+		(pin "Din" input
+			(at 160.02 97.155 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8216a0a4-f18a-42cd-af2f-7ac333feafbe")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "144")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 99.06 61.595)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c6234f93-5172-4843-b6fe-5176d690511d")
+		(property "Sheetname" "rgb_38"
+			(at 99.06 60.8834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 99.06 69.5716 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 116.84 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "61ac84be-b280-4e0a-b58e-c59b8e2d9ac0")
+		)
+		(pin "Din" input
+			(at 99.06 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "922e1588-d823-4f96-af9f-71f4edd7b6a8")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "118")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 140.335 80.645)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cd023525-f6b2-4903-9a0e-6763f5014a22")
+		(property "Sheetname" "rgb_50"
+			(at 140.335 79.9334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 140.335 88.6216 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 140.335 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4f547f1b-9cf0-4673-bb01-e911b223d7e8")
+		)
+		(pin "Din" input
+			(at 158.115 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "84884fe9-803a-4682-97a6-41812f89a5e8")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "130")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 337.185 95.25)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cd6773af-3e01-4512-adf2-3a75d2957603")
+		(property "Sheetname" "rgb_55"
+			(at 337.185 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 337.185 103.2266 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 354.965 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1d0a0cca-d939-402b-b723-70e127533a32")
+		)
+		(pin "Din" input
+			(at 337.185 97.155 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "79ba7398-6169-4d1b-a788-cbec06c3b967")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "135")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 238.76 46.99)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ce4b958f-1d7c-4d00-8bfc-9fdc3ae96450")
+		(property "Sheetname" "rgb_18"
+			(at 238.76 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 238.76 54.9666 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 238.76 48.895 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7094a9bf-3a21-42f0-9368-1a7386854cc5")
+		)
+		(pin "Din" input
+			(at 256.54 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "148a02af-e02c-4d84-82ca-7ad27f60e27d")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "98")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 140.335 46.99)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ceb29457-e072-4377-95f4-1127875e2344")
+		(property "Sheetname" "rgb_23"
+			(at 140.335 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 140.335 54.9666 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 140.335 48.895 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3f69fee6-4035-4cb7-a021-e6b37eb282e6")
+		)
+		(pin "Din" input
+			(at 158.115 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "59c7bce7-75fa-4325-be7a-d4c3e877bf34")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "103")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 278.13 46.99)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d2a1ee05-e3dd-4f08-9da5-c497173df8e2")
+		(property "Sheetname" "rgb_16"
+			(at 278.13 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 278.13 54.9666 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 278.13 48.895 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7c3be5ba-27ca-4658-a028-e7da40c7d2e6")
+		)
+		(pin "Din" input
+			(at 295.91 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5c2772a6-3413-48d2-93c9-442916ba0b89")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "96")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 46.99)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d2ec0f68-08f3-4b9d-9fe3-032e60e8a6f0")
+		(property "Sheetname" "rgb_24"
+			(at 120.65 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 120.65 54.9666 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 120.65 48.895 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ade27622-b48d-4cf8-83e4-7e51d56fe0f0")
+		)
+		(pin "Din" input
+			(at 138.43 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "59ab2aa9-37c9-458c-a2a2-4a918fc063a3")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "104")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 91.44 25.4)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d747262a-eeed-4651-8a84-cca1dbf4100e")
+		(property "Sheetname" "rgb_12"
+			(at 91.44 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "first_sk6812mini-e.kicad_sch"
+			(at 91.44 33.3766 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 109.22 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "40893d10-2073-4995-b5a8-237cd1f09e0d")
+		)
+		(pin "Din" input
+			(at 91.44 27.94 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1fd398fb-a76c-4913-9356-1123a1e8d147")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 317.5 80.645)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d9078956-39e7-40ed-8ccb-c9fc67b3a278")
+		(property "Sheetname" "rgb_41"
+			(at 317.5 79.9334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 317.5 88.6216 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 317.5 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "655cfd78-64a2-44d1-88c4-8e6398a5c6af")
+		)
+		(pin "Din" input
+			(at 335.28 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4313404d-3f5b-4dce-95ac-51c4a31a9567")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "121")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 297.815 80.645)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d99dc8f6-8567-4e52-8fe4-5ef59f99b58c")
+		(property "Sheetname" "rgb_42"
+			(at 297.815 79.9334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 297.815 88.6216 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 297.815 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ff3c7655-c7a5-46be-9c3f-c154048cc852")
+		)
+		(pin "Din" input
+			(at 315.595 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b6115c37-88ca-4dbd-b640-0b9858428ff1")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "122")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 33.655)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e1ecc2d9-71d6-4e0c-b655-453aa5a2e203")
+		(property "Sheetname" "rgb_11"
+			(at 120.65 32.9434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 120.65 41.6316 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 138.43 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5eec66be-d355-4485-a7e0-b20a8b3a55c1")
+		)
+		(pin "Din" input
+			(at 120.65 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "900dbffc-6013-426b-b431-13d3a2e8756b")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "91")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 258.445 62.23)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e806fc23-b968-44b2-89b0-cfa2c5366979")
+		(property "Sheetname" "rgb_30"
+			(at 258.445 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 258.445 70.2066 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 276.225 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7caa0e73-fa40-414c-8c71-62ede896316a")
+		)
+		(pin "Din" input
+			(at 258.445 64.135 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8c7fb20b-7dba-4cf5-9b6d-de181442fd14")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "110")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 95.25)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e80d6ea8-9961-4d2d-8964-db49b2a3fe97")
+		(property "Sheetname" "rgb_66"
+			(at 120.65 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 120.65 103.2266 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 138.43 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ec9c4271-9936-424f-b609-18da652648d1")
+		)
+		(pin "Din" input
+			(at 120.65 97.155 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9c184928-afa6-4725-bec7-9d58a603a72e")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "146")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 337.185 62.23)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ed086ab6-77a4-47c7-a963-ff3fc4c01387")
+		(property "Sheetname" "rgb_26"
+			(at 337.185 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 337.185 70.2066 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 354.965 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fe31a7c9-f388-4759-9062-287dd1053196")
+		)
+		(pin "Din" input
+			(at 337.185 64.135 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1feff5b3-6511-495c-91dc-ea514edc426b")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "106")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 278.13 80.645)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ee4d005a-0224-4bf8-867e-64846e9facb0")
+		(property "Sheetname" "rgb_43"
+			(at 278.13 79.9334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 278.13 88.6216 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 278.13 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fe181731-2438-4064-ba52-471a9df65ce7")
+		)
+		(pin "Din" input
+			(at 295.91 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3f1f1d6b-837c-4cde-998c-ac6a79db6703")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "123")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 317.5 33.655)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "efeb6077-dc61-4c52-a41b-97287f6b9330")
+		(property "Sheetname" "rgb_1"
+			(at 317.5 32.9434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 317.5 41.6316 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 335.28 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2eb231bb-c058-4999-baef-1983642d4cae")
+		)
+		(pin "Din" input
+			(at 317.5 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6f1cc813-b616-464f-aed7-14a08e72f968")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "81")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 258.445 33.655)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f049aed2-7872-489f-a057-51228d29bea0")
+		(property "Sheetname" "rgb_4"
+			(at 258.445 32.9434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 258.445 41.6316 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 276.225 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d1b8ac6a-f715-44c6-b3c0-11155d7e78ed")
+		)
+		(pin "Din" input
+			(at 258.445 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "27904425-e72a-48d7-acc0-70f931360374")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "84")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 219.075 33.655)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f2cd1c37-5fac-4e46-9204-94e6085054ae")
+		(property "Sheetname" "rgb_6"
+			(at 219.075 32.9434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 219.075 41.6316 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 236.855 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b8cf01f6-532c-45a3-81cf-4626342dc963")
+		)
+		(pin "Din" input
+			(at 219.075 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e53740c5-720f-4d78-a4d7-64e5f3019c26")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "86")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 297.815 46.99)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f2d4842e-64dc-402c-ada8-b07bafb38768")
+		(property "Sheetname" "rgb_15"
+			(at 297.815 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 297.815 54.9666 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 297.815 48.895 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4d7fbccc-8e4d-44b7-b05a-6b23782069e7")
+		)
+		(pin "Din" input
+			(at 315.595 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a7960037-aa50-4451-bebb-63123e59f0b0")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "95")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 62.23)
+		(size 17.78 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f85d4129-32e0-48f2-a1b4-7acd19c2679c")
+		(property "Sheetname" "rgb_37"
+			(at 120.65 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e.kicad_sch"
+			(at 120.65 70.2066 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 138.43 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "272c810e-f86b-4422-a0ca-ddda4cf849e4")
+		)
+		(pin "Din" input
+			(at 120.65 64.135 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a4e54d4b-579b-4f0f-bc60-147f845e1ad4")
+		)
+		(instances
+			(project "KHEops70"
+				(path "/bb706f4b-6d11-4e29-ae30-1a1ffddaf9f4/d2906eb2-d0c1-4658-a93b-b7d5f640b9d6"
+					(page "117")
+				)
+			)
+		)
+	)
+)
